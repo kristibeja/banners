@@ -22,8 +22,7 @@ body{
     border: 1px solid black;
     cursor: pointer;
 }
-.container:nth-child(3),
-.container:nth-child(5){
+.container:nth-child(3){
     justify-content: flex-start;
     padding-top: 8px;
 }
