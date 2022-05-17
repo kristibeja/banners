@@ -147,8 +147,8 @@ body{
 /**** FRAME 4 ****/
 .frame-4 p{
     color: white;
-    margin: 15px 0 5px ;
     font-weight: 700;
+    font-size: 15px;
 }
 .frame-4 span{
     text-transform: uppercase;
@@ -156,7 +156,7 @@ body{
 .frame-4 img{
     width: 70%;
     display: flex;
-    margin: 0 auto 8px;
+    margin: 0 auto 3px;
 }
 .frame-4 a{
     text-decoration: none;
@@ -164,22 +164,22 @@ body{
     letter-spacing: 1.5px;
     background-color: #00bed6;
     border-radius: 30px;
-    padding: 8px 20px;
-    font-size: 12px;
+    padding: 7px 18px;
+    font-size: 9px;
 }
 
 
 /**** FRAME 5 ****/
 .frame-5 p{
     color: white;
-    margin: 15px 0 5px ;
+
     font-weight: 700;
 }
 .frame-5 span{
     text-transform: uppercase;
 }
 .frame-5 img {
-    width: 200px;
+    width: 50%;
     display: flex;
     margin: 0 auto 5px;
 }
@@ -189,8 +189,8 @@ body{
     letter-spacing: 1.5px;
     background-color: #00bed6;
     border-radius: 30px;
-    padding: 8px 23px;
-    font-size: 12px;
+    padding: 7px 23px;
+    font-size: 9px;
 }
 
 
