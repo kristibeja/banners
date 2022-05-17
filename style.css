@@ -170,6 +170,9 @@ body{
 
 
 /**** FRAME 5 ****/
+.frame-5{
+    margin-top: 15px;
+}
 .frame-5 p{
     color: white;
 
@@ -222,16 +225,6 @@ body{
     border: 1px solid #00bed6;
     color: #00bed6;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -714,4 +707,38 @@ body{
     border-bottom: 2px solid #1ee9ff;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(45deg);
+}
+
+
+/* frame-5 confettis */
+.confettis-2 .rectangle-3{
+    margin: -10px;
+}
+.confettis-2 .light-curve-2{
+    top:50px;
+    left:250px;
+}
+.confettis-2 .dark-circle{
+    top: 150px;
+}
+.confettis-2 .circle{
+    top:130px;
+}
+.confettis-2 .rectangle-2{
+    margin:-160px;
+}
+.confettis-2 .curved-1{
+    top:160px;
+    left:240px;
+}
+.confettis-2 .light-curve-3{
+    top: 30px;
+}
+.confettis-2 .dark-rec-4{
+    top:25px;
+    left:250px;
+}
+.confettis-2 .rectangle-4{
+    top:180px;
+    left:50px;
 }
