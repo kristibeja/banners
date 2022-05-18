@@ -319,22 +319,22 @@ body{
     background: #00fafe;
     transform: rotate(150deg);
 }
-.dark-rec-1{
+.confettis .dark-rec-1{
     position: absolute;
     top: 80px;
     left: 240px;
     width: 14px;
     height: 4px;
-    background: #4f2f75;
+    background: #40078d;
     transform: rotate(310deg);
 }
-.dark-rec-2{
+.confettis .dark-rec-2{
     position: absolute;
     top: 130px;
     left: 15px;
     width: 14px;
     height: 4px;
-    background: rgb(64, 7, 141);
+    background: #40078d;
     transform: rotate(170deg);
 }
 .confettis .dark-rec-3{
