@@ -122,26 +122,24 @@ body{
     align-items: center;
     margin-top: 10px;
 }
-.frame-3 span,
-.frame3_container span{
-    text-transform: uppercase;
+.frame3_ln span,
+.frame3_orange span{
+    font-weight: 700;
+    margin-left: -3px;
+    font-size: 17px;
+    transform-origin: bottom center;
 }
 .frame3_ln{
     background-color: #5a2da2;
-    padding: 5px 25px;
+    color: white;
+    padding: 5px 20px;
     margin-bottom: 10px;
     position: relative;
 }
 .frame3_orange{
     background-color: #fa8d40;
-    padding: 5px 20px;
-}
-#curve{
-    fill:none
-}
-textPath{
-  font-family: 'Roboto', sans-serif;
-  fill:#000;
+    color: white;
+    padding: 5px 13px;
 }
 
 
@@ -741,5 +739,16 @@ textPath{
 
 
 /*********************
-| | | ANIMATIONS | | |s
+| | | ANIMATIONS | | |
 *********************/
+
+/* char animations */
+.char1{
+    transform: rotate(0deg);
+}
+.char2{
+    transform: rotate(5deg);
+}
+.char3{
+    transform: rotate(20deg);
+}
