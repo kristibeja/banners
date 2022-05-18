@@ -134,13 +134,19 @@ body{
     background-color: #5a2da2;
     padding: 5px 25px;
     margin-bottom: 10px;
+    position: relative;
 }
 .frame3_orange{
     background-color: #fa8d40;
     padding: 5px 20px;
 }
-
-
+#curve{
+    fill:none
+}
+textPath{
+  font-family: 'Roboto', sans-serif;
+  fill:#000;
+}
 
 
 /**** FRAME 4 ****/
@@ -157,7 +163,8 @@ body{
     display: flex;
     margin: 0 auto 3px;
 }
-.frame-4 a{
+.frame-4 a,
+.frame-5 a{
     text-decoration: none;
     color: white;
     letter-spacing: 1.5px;
@@ -184,15 +191,6 @@ body{
     width: 50%;
     display: flex;
     margin: 0 auto 5px;
-}
-.frame-5 a{
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1.5px;
-    background-color: #00bed6;
-    border-radius: 30px;
-    padding: 7px 23px;
-    font-size: 9px;
 }
 
 
@@ -741,3 +739,11 @@ body{
     top:180px;
     left:50px;
 }
+
+
+
+
+
+/*********************
+| | | ANIMATIONS | | |s
+*********************/
