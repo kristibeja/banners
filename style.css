@@ -169,6 +169,9 @@ body{
 
 
 /**** FRAME 5 ****/
+.frame-5{
+    margin-top: 15px;
+}
 .frame-5 p{
     color: white;
 
@@ -221,16 +224,6 @@ body{
     border: 1px solid #00bed6;
     color: #00bed6;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -325,22 +318,22 @@ body{
     background: #00fafe;
     transform: rotate(150deg);
 }
-.dark-rec-1{
+.confettis .dark-rec-1{
     position: absolute;
     top: 80px;
     left: 240px;
     width: 14px;
     height: 4px;
-    background: #4f2f75;
+    background: #40078d;
     transform: rotate(310deg);
 }
-.dark-rec-2{
+.confettis .dark-rec-2{
     position: absolute;
     top: 130px;
     left: 15px;
     width: 14px;
     height: 4px;
-    background: rgb(64, 7, 141);
+    background: #40078d;
     transform: rotate(170deg);
 }
 .confettis .dark-rec-3{
@@ -713,4 +706,38 @@ body{
     border-bottom: 2px solid #1ee9ff;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(45deg);
+}
+
+
+/*** FRAME 5 Confettis ***/
+.confettis-2 .rectangle-3{
+    margin: -10px;
+}
+.confettis-2 .light-curve-2{
+    top:50px;
+    left:250px;
+}
+.confettis-2 .dark-circle{
+    top: 150px;
+}
+.confettis-2 .circle{
+    top:130px;
+}
+.confettis-2 .rectangle-2{
+    margin:-160px;
+}
+.confettis-2 .curved-1{
+    top:160px;
+    left:240px;
+}
+.confettis-2 .light-curve-3{
+    top: 30px;
+}
+.confettis-2 .dark-rec-4{
+    top:25px;
+    left:250px;
+}
+.confettis-2 .rectangle-4{
+    top:180px;
+    left:50px;
 }
