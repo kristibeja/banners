@@ -74,15 +74,12 @@ body{
 .grid-frame2{
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
-    grid-gap: 5px;
     padding: 15px;
 }
 .blocks{
-    display: flex;
     align-items: center;
-    padding: 5px;
 }
 .tick{
     display: inline-block;
@@ -95,20 +92,19 @@ body{
 .two-borders{
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
     align-items: baseline;
-    padding-bottom: 5px;
+    width: 30px;
 }
-/* .border{
+.border1{
+    border-top: 4px solid #d8d7d5;
+    width: 70%;
+    margin-bottom: 3px;
+}
+.border2{
+    border-bottom: 4px solid #d8d7d5;
+    width: 100%;
+}
 
-} */
-/* .blocks::after{
-        content: "";
-        width: 20px;
-        height: 0;
-        border-top: 5px solid #d8d7d5;
-        margin-left: 8px;
-} */
 
 /**** FRAME 3 *****/
 .frame-3 h2 {
