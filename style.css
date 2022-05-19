@@ -135,11 +135,14 @@ body{
   margin: auto;
   width: 100px;
   height: 170px;
-  top: 10px;
+  top: 3px;
   background-color: transparent;
   border-radius: 0%; 
   box-shadow: 30px 0px 0px 0px #5a2da2; 
-  transform: rotate(-90deg); 
+  transform: rotate(-90deg);
+  animation-name: moon-div-ln;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 .frame3_container span{
     color: white;
@@ -154,74 +157,212 @@ body{
 span.char1{
     position: absolute;
     left: 6px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    transform: rotate(0deg);
+    animation-name: char1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char2{
     position: absolute;
     left: 15px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char3{
     position: absolute;
     left: 25px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char4{
     position: absolute;
     left: 33px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char4;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char5{
     position: absolute;
     left: 41px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char5;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char6{
     position: absolute;
     left: 45px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char6;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char7{
     position: absolute;
     left: 56px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char7;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char8{
     position: absolute;
     left: 61px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char8;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char9{
     position: absolute;
     left: 70px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char9;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char10{
     position: absolute;
     left: 76px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char10;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 span.char11{
     position: absolute;
     left: 84px;
-    top: 20px;
+    top: 14px;
     font-weight: 500;
+    animation-name: char11;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 
-
-
-
-
+span.char12{
+    position: absolute;
+    left: 6px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char12;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char13{
+    position: absolute;
+    left: 15px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char13;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char14{
+    position: absolute;
+    left: 25px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char14;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char15{
+    position: absolute;
+    left: 33px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char15;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char16{
+    position: absolute;
+    left: 41px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char16;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char17{
+    position: absolute;
+    left: 45px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char17;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char18{
+    position: absolute;
+    left: 56px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char18;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char19{
+    position: absolute;
+    left: 65px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char19;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char20{
+    position: absolute;
+    left: 70px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char20;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char21{
+    position: absolute;
+    left: 79px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char21;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char22{
+    position: absolute;
+    left: 88px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char22;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+span.char23{
+    position: absolute;
+    left: 97px;
+    top: 55px;
+    font-weight: 500;
+    animation-name: char23;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
 
 
 .frame3_orange{
@@ -229,27 +370,204 @@ span.char11{
   margin: auto;
   width: 100px;
   height: 170px;
-  top: 50px;
+  top: 45px;
   background-color: transparent;
   border-radius: 0%;
   box-shadow: 30px 0px 0px 0px #fa8d40; 
-  transform: rotate(-90deg); 
+  transform: rotate(-90deg);
+  animation-name: moon-div-orange;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
-/* ne keyframe do te jete keshtu
-{
-     position: absolute;
-  margin: auto;
-  width: 65px;
-  height: 170px;
-  top: 55px;
-  background-color: transparent;
-  border-radius: 45%;
-  box-shadow: 25px 0px 0px 5px #fa8d40; 
-  transform: rotate(-90deg); 
-} */
 
+@keyframes moon-div-ln{
+    from {
+        width: 100px;
+        border-radius: 0%;
+        box-shadow: 30px 0px 0px 0px #5a2da2;  
+    }
+    to {
+        width: 65px;
+        border-radius: 50%;
+        box-shadow: 25px 0px 0px 5px #5a2da2; 
+    }
+}
 
+@keyframes moon-div-orange{
+    from {
+        width: 100px;
+        border-radius: 0%;
+        box-shadow: 30px 0px 0px 0px #fa8d40;  
+    }
+    to {
+        width: 65px;
+        border-radius: 50%;
+        box-shadow: 25px 0px 0px 5px #fa8d40; 
+    }
+}
+
+@keyframes char1 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 35px;
+       left: 1px;
+    }
+}
+@keyframes char2 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 32px;
+       left: 12px;
+    }
+}
+@keyframes char3 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 29px;
+       left: 22px;
+    }
+}
+@keyframes char4 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 27px;
+       left: 32px;
+    }
+}
+@keyframes char5 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 25px;
+       left: 42px;
+    }
+}
+@keyframes char6 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 25px;
+       left: 48px;
+    }
+}
+@keyframes char7 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 25px;
+       left: 60px;
+    }
+}
+@keyframes char8 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 27px;
+       left: 65px;
+    }
+}
+@keyframes char9 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 29px;
+       left: 75px;
+    }
+}
+@keyframes char10 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 32px;
+       left: 80px;
+    }
+}
+@keyframes char11 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 35px;
+       left: 90px;
+    }
+}
+@keyframes char12 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 75px;
+       left: 0px;
+    }
+}
+@keyframes char13 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 73px;
+       left: 10px;
+    }
+}
+@keyframes char14 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 72px;
+       left: 20px;
+    }
+}
+@keyframes char15 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 70px;
+       left: 29px;
+    }
+}
+@keyframes char16 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 68px;
+       left: 38px;
+    }
+}
+@keyframes char17 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 68px;
+       left: 43px;
+    }
+}
+@keyframes char18 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 69px;
+       left: 54px;
+    }
+}
+@keyframes char19 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 69px;
+       left: 63px;
+    }
+}
+@keyframes char20 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 70px;
+       left: 69px;
+    }
+}
+@keyframes char21 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 72px;
+       left: 78px;
+    }
+}
+@keyframes char22 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 73px;
+       left: 87px;
+    }
+}
+@keyframes char23 {
+    from{ transform: rotate(0deg); }
+    to{
+       top: 78px;
+       left: 96px;
+    }
+} 
 
 
 /**** FRAME 4 ****/
