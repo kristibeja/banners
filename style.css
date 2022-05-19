@@ -116,6 +116,7 @@ body{
     font-weight: 700;
 }
 .frame3_container{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,17 +131,125 @@ body{
     transform-origin: bottom center;
 }
 .frame3_ln{
-    background-color: #5a2da2;
+  position: absolute;
+  margin: auto;
+  width: 100px;
+  height: 170px;
+  top: 10px;
+  background-color: transparent;
+  border-radius: 0%; 
+  box-shadow: 30px 0px 0px 0px #5a2da2; 
+  transform: rotate(-90deg); 
+}
+.frame3_container span{
     color: white;
-    padding: 5px 20px;
-    margin-bottom: 10px;
+    display: flex;
+    z-index: 3;
     position: relative;
 }
-.frame3_orange{
-    background-color: #fa8d40;
-    color: white;
-    padding: 5px 13px;
+.center-char{
+    width: 100px;
+    position: absolute;
 }
+span.char1{
+    position: absolute;
+    left: 6px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char2{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char3{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char4{
+    position: absolute;
+    left: 33px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char5{
+    position: absolute;
+    left: 41px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char6{
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char7{
+    position: absolute;
+    left: 56px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char8{
+    position: absolute;
+    left: 61px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char9{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char10{
+    position: absolute;
+    left: 76px;
+    top: 20px;
+    font-weight: 500;
+}
+span.char11{
+    position: absolute;
+    left: 84px;
+    top: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.frame3_orange{
+  position: absolute;
+  margin: auto;
+  width: 100px;
+  height: 170px;
+  top: 50px;
+  background-color: transparent;
+  border-radius: 0%;
+  box-shadow: 30px 0px 0px 0px #fa8d40; 
+  transform: rotate(-90deg); 
+}
+
+/* ne keyframe do te jete keshtu
+{
+     position: absolute;
+  margin: auto;
+  width: 65px;
+  height: 170px;
+  top: 55px;
+  background-color: transparent;
+  border-radius: 45%;
+  box-shadow: 25px 0px 0px 5px #fa8d40; 
+  transform: rotate(-90deg); 
+} */
+
+
 
 
 /**** FRAME 4 ****/
@@ -743,12 +852,12 @@ body{
 *********************/
 
 /* char animations */
-.char1{
+/* .char1{
     transform: rotate(0deg);
 }
 .char2{
-    transform: rotate(5deg);
+    transform: rotate(deg);
 }
 .char3{
     transform: rotate(20deg);
-}
+} */
