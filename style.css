@@ -59,7 +59,7 @@ body{
 }
 .frame-2 p{
     color: #ffffff;
-    margin: 0px 60px;
+    margin: 10px 60px;
     font-weight: bold;
     font-size: 12px;
     letter-spacing: 1px;
@@ -71,6 +71,7 @@ body{
 }
 .frame2_container img{
     width: 17%;
+    animation-delay: .4s;
 }
 .grid-frame2{
     display: grid;
@@ -89,12 +90,14 @@ body{
     width: 12px;
     border-bottom: 5px solid #40078d;
     border-right: 5px solid #40078d;
+    animation: tick 1s forwards;
 }
 .two-borders{
     display: flex;
     flex-direction: column;
     align-items: baseline;
     width: 30px;
+    animation: two-borders 1s forwards;
 }
 .border1{
     border-top: 4px solid #d8d7d5;
@@ -106,6 +109,15 @@ body{
     width: 100%;
 }
 
+/* FRAME 2 ANIMATIONS */
+@keyframes tick {
+    0%{height: 0px;}
+    100%{height: 20px;}
+}
+@keyframes two-borders {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 
 
 /**** FRAME 3 *****/
@@ -116,6 +128,7 @@ body{
 .frame-3 p{
     color: #fff;
     font-weight: 700;
+    animation-delay: .1s;
 }
 .frame3_container{
     position: relative;
@@ -142,7 +155,21 @@ body{
   border-radius: 0%; 
   box-shadow: 30px 0px 0px 0px #5a2da2; 
   transform: rotate(-90deg);
-  animation: moon-div-ln 1s forwards;
+  animation: moon-div-ln .5s forwards;
+  animation-delay: .7s;
+}
+.frame3_orange{
+    position: absolute;
+    margin: auto;
+    width: 100px;
+    height: 170px;
+    top: 45px;
+    background-color: transparent;
+    border-radius: 0%;
+    box-shadow: 30px 0px 0px 0px #fa8d40; 
+    transform: rotate(-90deg);
+    animation: moon-div-orange .5s forwards;
+    animation-delay: .7s;
 }
 .frame3_container span{
     color: white;
@@ -160,77 +187,88 @@ span.char1{
     top: 14px;
     font-weight: 500;
     transform: rotate(0deg);
-    animation: char1 1s forwards;
+    animation: char1 .5s forwards;
+    animation-delay: .7s;
 }
 span.char2{
     position: absolute;
     left: 15px;
     top: 14px;
     font-weight: 500;
-    animation: char2 1s forwards;
+    animation: char2 .5s forwards;
+    animation-delay: .7s;
 }
 span.char3{
     position: absolute;
     left: 25px;
     top: 14px;
     font-weight: 500;
-    animation: char3 1s forwards;
+    animation: char3 .5s forwards;
+    animation-delay: .7s;
 }
 span.char4{
     position: absolute;
     left: 33px;
     top: 14px;
     font-weight: 500;
-    animation: char4 1s forwards;
+    animation: char4 .5s forwards;
+    animation-delay: .7s;
 }
 span.char5{
     position: absolute;
     left: 41px;
     top: 14px;
     font-weight: 500;
-    animation: char5 1s forwards;
+    animation: char5 .5s forwards;
+    animation-delay: .7s;
 }
 span.char6{
     position: absolute;
     left: 45px;
     top: 14px;
     font-weight: 500;
-    animation: char6 1s forwards;
+    animation: char6 .5s forwards;
+    animation-delay: .7s;
 }
 span.char7{
     position: absolute;
     left: 56px;
     top: 14px;
     font-weight: 500;
-    animation: char7 1s forwards;
+    animation: char7 .5s forwards;
+    animation-delay: .7s;
 }
 span.char8{
     position: absolute;
     left: 61px;
     top: 14px;
     font-weight: 500;
-    animation: char8 1s forwards;
+    animation: char8 .5s forwards;
+    animation-delay: .7s;
 }
 span.char9{
     position: absolute;
     left: 70px;
     top: 14px;
     font-weight: 500;
-    animation: char9 1s forwards;
+    animation: char9 .5s forwards;
+    animation-delay: .7s;
 }
 span.char10{
     position: absolute;
     left: 76px;
     top: 14px;
     font-weight: 500;
-    animation: char10 1s forwards;
+    animation: char10 .5s forwards;
+    animation-delay: .7s;
 }
 span.char11{
     position: absolute;
     left: 84px;
     top: 14px;
     font-weight: 500;
-    animation: char11 1s forwards;
+    animation: char11 .5s forwards;
+    animation-delay: .7s;
 }
 
 span.char12{
@@ -238,99 +276,99 @@ span.char12{
     left: 6px;
     top: 55px;
     font-weight: 500;
-    animation: char12 1s forwards;
+    animation: char12 .5s forwards;
+    animation-delay: .7s;
 }
 span.char13{
     position: absolute;
     left: 15px;
     top: 55px;
     font-weight: 500;
-    animation: char13 1s forwards;
+    animation: char13 .5s forwards;
+    animation-delay: .7s;
 }
 span.char14{
     position: absolute;
     left: 25px;
     top: 55px;
     font-weight: 500;
-    animation: char14 1s forwards;
+    animation: char14 .5s forwards;
+    animation-delay: .7s;
 }
 span.char15{
     position: absolute;
     left: 33px;
     top: 55px;
     font-weight: 500;
-    animation: char15 1s forwards;
+    animation: char15 .5s forwards;
+    animation-delay: .7s;
 }
 span.char16{
     position: absolute;
     left: 41px;
     top: 55px;
     font-weight: 500;
-    animation: char16 1s forwards;
+    animation: char16 .5s forwards;
+    animation-delay: .7s;
 }
 span.char17{
     position: absolute;
     left: 45px;
     top: 55px;
     font-weight: 500;
-    animation: char17 1s forwards;
+    animation: char17 .5s forwards;
+    animation-delay: .7s;
 }
 span.char18{
     position: absolute;
     left: 56px;
     top: 55px;
     font-weight: 500;
-    animation: char18 1s forwards;
+    animation: char18 .5s forwards;
+    animation-delay: .7s;
 }
 span.char19{
     position: absolute;
     left: 65px;
     top: 55px;
     font-weight: 500;
-    animation: char19 1s forwards;
+    animation: char19 .5s forwards;
+    animation-delay: .7s;
 }
 span.char20{
     position: absolute;
     left: 70px;
     top: 55px;
     font-weight: 500;
-    animation: char20 1s forwards;
+    animation: char20 .5s forwards;
+    animation-delay: .7s;
 }
 span.char21{
     position: absolute;
     left: 79px;
     top: 55px;
     font-weight: 500;
-    animation: char21 1s forwards;
+    animation: char21 .5s forwards;
+    animation-delay: .7s;
 }
 span.char22{
     position: absolute;
     left: 88px;
     top: 55px;
     font-weight: 500;
-    animation: char22 1s forwards;
+    animation: char22 .5s forwards;
+    animation-delay: .7s;
 }
 span.char23{
     position: absolute;
     left: 97px;
     top: 55px;
     font-weight: 500;
-    animation: char23 1s forwards;
+    animation: char23 .5s forwards;
+    animation-delay: .7s;
 }
 
 
-.frame3_orange{
-  position: absolute;
-  margin: auto;
-  width: 100px;
-  height: 170px;
-  top: 45px;
-  background-color: transparent;
-  border-radius: 0%;
-  box-shadow: 30px 0px 0px 0px #fa8d40; 
-  transform: rotate(-90deg);
-  animation: moon-div-orange 1s forwards;
-}
 
 /* FRAME 3 ANIMATIONS */
 
