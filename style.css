@@ -591,12 +591,8 @@ span.char23{
 
 
 /**** FRAME 5 ****/
-.frame-5{
-    margin-top: 15px;
-}
 .frame-5 p{
     color: white;
-
     font-weight: 700;
 }
 .frame-5 span{
@@ -653,7 +649,10 @@ span.char23{
     height: 10px;
     background-color: #0bf6fd;
     border-radius: 50%;
-    }
+    animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s;
+}
 .confettis .circle{
     position: absolute;
     top: 190px;
@@ -662,6 +661,9 @@ span.char23{
     height: 8px;
     background-color: #0bf6fd;
     border-radius: 50%;
+    animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
 .confettis .circle-1{
     position: absolute;
@@ -671,6 +673,9 @@ span.char23{
     height: 8px;
     background-color: #0bf6fd;
     border-radius: 50%;
+    animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
 .confettis .dark-circle{
     position: absolute;
@@ -680,6 +685,9 @@ span.char23{
     height: 5px;
     background-color: #40078d;
     border-radius: 50%;
+    animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
 .confettis .dark-circle-1{
     position: absolute;
@@ -689,25 +697,49 @@ span.char23{
     height: 5px;
     background-color: #40078d;
     border-radius: 50%;
+    animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s;
  }
+ @keyframes circle {
+    from{transform: scale(1);}
+    to{transform: scale(1.5);}
+}
+
 .rectangle-1{
     position: absolute;
     top: 187px;
     left: 21px;
-    width: 18px;
+    width: 10px;
     height: 3px;
     background: #0bf6fd;
     transform: rotate(150deg);
+    animation-name: rectangle-1;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes rectangle-1 {
+    from{transform: rotate(150deg);}
+    to{transform: rotate(90deg) scale(1.5);}
+}
+
 .rectangle-2{
     position: absolute;
     top: 200px;
     left: 185px;
-    width: 18px;
+    width: 10px;
     height: 3px;
     background: #0bf6fd;
     transform: rotate(45deg);
+    animation-name: rectangle-2;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes rectangle-2 {
+    from{transform: rotate(45deg);}
+    to{transform: rotate(0deg) scale(1.5);}
+}
+
 .confettis .rectangle-3{
     position: absolute;
     top: 90px;
@@ -716,34 +748,66 @@ span.char23{
     height: 4px;
     background: #00fafe;
     transform: rotate(55deg);
+    animation-name: rectangle-3;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes rectangle-3{
+    from{transform: rotate(55deg);}
+    to{transform: rotate(90deg) scale(1.5);}
+}
+
 .rectangle-4{
     position: absolute;
     top: 180px;
     left: 65px;
-    width: 18px;
+    width: 10px;
     height: 3px;
     background: #00fafe;
     transform: rotate(315deg);
+    animation-name: rectangle-4;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes rectangle-4{
+    from{transform: rotate(315deg);}
+    to{transform: rotate(270deg) scale(1.5);}
+}
+
 .confettis .rectangle-5{
     position: absolute;
     top: 106px;
     right: 26px;
-    width: 15px;
+    width: 12px;
     height: 3px;
     background: #00fafe;
     transform: rotate(150deg);
+    animation-name: rectangle-5;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes rectangle-5{
+    from{transform: rotate(150deg);}
+    to{transform: rotate(90deg) scale(1.5);}
+}
+
 .confettis .dark-rec-1{
     position: absolute;
     top: 80px;
-    left: 240px;
-    width: 14px;
-    height: 4px;
+    right: 50px;
+    width: 4px;
+    height: 10px;
     background: #40078d;
-    transform: rotate(310deg);
+    transform: rotate(40deg);
+    animation-name: dark-rec-1;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes dark-rec-1 {
+    from{transform: rotate(40deg);}
+    to{transform: rotate(0deg) scale(1.5);}
+}
+
 .confettis .dark-rec-2{
     position: absolute;
     top: 130px;
@@ -751,35 +815,67 @@ span.char23{
     width: 14px;
     height: 4px;
     background: #40078d;
-    transform: rotate(170deg);
+    transform: rotate(-10deg);
+    animation-name: dark-rec-2;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes dark-rec-2 {
+    from{transform: rotate(-10deg);}
+    to{transform: rotate(0deg) scale(1.5);}
+}
+
 .confettis .dark-rec-3{
     position: absolute;
     top: 85px;
     left: 55px;
-    width: 12px;
-    height: 4px;
+    width: 4px;
+    height: 12px;
     background: rgb(64, 7, 141);
-    transform: rotate(90deg);
+    transform: rotate(10deg);
+    animation-name: dark-rec-3;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes dark-rec-3 {
+    from{transform: rotate(10deg);}
+    to{transform: rotate(0deg) scale(1.5);}
+}
+
 .confettis .dark-rec-4{
     position: absolute;
-    top: 225px;
-    left: 90px;
-    width: 13px;
-    height: 4px;
+    top: 212px;
+    left: 100px;
+    width: 4px;
+    height: 12px;
     background: #40078d;
-    transform: rotate(105deg);
+    transform: rotate(10deg);
+    animation-name: dark-rec-4;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes dark-rec-4{
+    from{transform: rotate(10deg);}
+    to{transform: rotate(0deg) scale(1.5);}
+}
+
 .confettis .dark-rec-5{
     position: absolute;
     top: 175px;
-    left: 225px;
-    width: 14px;
-    height: 4px;
+    right: 50px;
+    width: 4px;
+    height: 12px;
     background: #40078d;
-    transform: rotate(20deg);
+    transform: rotate(100deg);
+    animation-name: dark-rec-5;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes dark-rec-5{
+    from{transform: rotate(100deg);}
+    to{transform: rotate(90deg) scale(1.5);}
+}
+
 .confettis .curved-1{
     position: absolute;
     top: 175px;
@@ -792,7 +888,15 @@ span.char23{
     border-bottom: 3px solid #00bcda;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(340deg);
+    animation-name: curved-1;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes curved-1{
+    from{transform: rotate(340deg);}
+    to{transform: rotate(300deg) scale(1.5);}
+}
+
 .confettis .curved-2{
     position: absolute;
     top: 108px;
@@ -805,10 +909,19 @@ span.char23{
     border-bottom: 3px solid #04bbd4;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(250deg);
+    animation-name: curved-2;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes curved-2{
+    from{transform: rotate(250deg);}
+    to{transform: rotate(200deg) scale(1.5);}
+}
+
 .confettis .curved-3{
     position: absolute;
-    left: 195px;
+    bottom: 62px;
+    right: 65px;
     width: 18px;
     height: 8px;
     background-color: transparent;
@@ -817,7 +930,15 @@ span.char23{
     border-bottom: 3px solid #00bcda;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(230deg);
+    animation-name: curved-3;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes curved-3{
+    from{transform: rotate(230deg);}
+    to{transform: rotate(320deg) scale(1.5);}
+}
+
 .confettis .curved-4{
     position: absolute;
     top: 110px;
@@ -830,7 +951,15 @@ span.char23{
     border-bottom: 3px solid #00bcda;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(310deg);
+    animation-name: curved-4;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes curved-4{
+    from{transform: rotate(310deg);}
+    to{transform: rotate(335deg) scale(1.5);}
+}
+
 .confettis .curved-5{
     position: absolute;
     top: 200px;
@@ -843,7 +972,15 @@ span.char23{
     border-bottom: 3px solid #00bcda;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(35deg);
+    animation-name: curved-5;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes curved-5{
+    from{transform: rotate(35deg);}
+    to{transform: rotate(-60deg) scale(1.5);}
+}
+
 .confettis .light-curve-1{
     position: absolute;
     top: 210px;
@@ -851,12 +988,20 @@ span.char23{
     width: 12px;
     height: 5.5px;
     background-color: transparent;
-    border-right: 3px solid #00fafe;
-    border-left: 3px solid #00fafe;
-    border-bottom: 3spx solid #00fafe;
+    border-right: 2px solid #00fafe;
+    border-left: 2px solid #00fafe;
+    border-bottom: 2px solid #00fafe;
     border-radius: 0px 0px 150px 150px;
-    transform: rotate(245deg);
+    transform: rotate(-130deg);
+    animation-name: light-curve-1;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes light-curve-1{
+    from{transform: rotate(-130deg);}
+    to{transform: rotate(-1deg) scale(1.5);}
+}
+
 .confettis .light-curve-2{
     position: absolute;
     top: 85px;
@@ -869,7 +1014,15 @@ span.char23{
     border-bottom: 2px solid #00fafe;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(47deg);
+    animation-name: light-curve-2;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
+@keyframes light-curve-2{
+    from{transform: rotate(47deg);}
+    to{transform: rotate(-30deg) scale(1.5);}
+}
+
 .confettis .light-curve-3{
     position: absolute;
     top: 200px;
@@ -882,252 +1035,18 @@ span.char23{
     border-bottom: 2px solid #00fafe;
     border-radius: 0px 0px 150px 150px;
     transform: rotate(45deg);
+    animation-name: light-curve-2;
+    animation-duration: .3s;
+    animation-delay: .4s;
 }
     
-    /* shapes-confetti */
-.confettis .big-circle{
-    position: absolute;
-    top: 112px;
-    right: 28px;
-    width: 10px;
-    height: 10px;
-    background-color: #00fafe;
-    border-radius: 50%;
-}
-.circle{
-    position: absolute;
-    top: 190px;
-    left: 55px;
-    width: 8px;
-    height: 8px;
-    background-color: #0bf6fd;
-    border-radius: 50%;
-}
-.circle-1{
-    position: absolute;
-    top: 212px;
-    left: 205px;
-    width: 8px;
-    height: 8px;
-    background-color: #0bf6fd;
-    border-radius: 50%;
-}
-.dark-circle{
-    position: absolute;
-    top: 175px;
-    left: 50px;
-    width: 5px;
-    height: 5px;
-    background-color: #4f2f75;
-    border-radius: 50%;
-}
-.dark-circle-1{
-    position: absolute;
-    top: 218px;
-    left: 190px;
-    width: 5px;
-    height: 5px;
-    background-color: #4f2f75;
-    border-radius: 50%;
-}
-.confettis .rectangle-1{
-    position: absolute;
-    top: 187px;
-    left: 21px;
-    width: 15px;
-    height: 3px;
-    background: #0bf6fd;
-    transform: rotate(150deg);
-    }
-.confettis .rectangle-2{
-    position: absolute;
-    top: 200px;
-    left: 185px;
-    width: 18px;
-    height: 3px;
-    background: #0bf6fd;
-    transform: rotate(45deg);
-}
-.rectangle-3{
-    position: absolute;
-    top: 90px;
-    left: 25px;
-    width: 18px;
-    height: 3px;
-    background: #0bf6fd;
-    transform: rotate(65deg);
-}
-.confettis .rectangle-4{
-    position: absolute;
-    top: 180px;
-    left: 65px;
-    width: 15px;
-    height: 3px;
-    background: #0bf6fd;
-    transform: rotate(315deg);
-}
-.rectangle-5{
-    position: absolute;
-    top: 106px;
-    left: 260px;
-    width: 18px;
-    height: 3px;
-    background: #0bf6fd;
-    transform: rotate(150deg);
-    }
-.confettis .dark-rec-1{
-    position: absolute;
-    top: 85px;
-    right: 24px;
-    width: 13px;
-    height: 3px;
-    background: #40078d;
-    transform: rotate(-45deg);
-}
-.dark-rec-2{
-    position: absolute;
-    top: 130px;
-    left: 15px;
-    width: 14px;
-    height: 4px;
-    background: #4f2f75;
-    transform: rotate(170deg);
-}
-.dark-rec-3{
-    position: absolute;
-    top: 80px;
-    left: 50px;
-    width: 14px;
-    height: 4px;
-    background: #4f2f75;
-    transform: rotate(85deg);
-}
-.dark-rec-4{
-    position: absolute;
-    top: 225px;
-    left: 90px;
-    width: 14px;
-    height: 4px;
-    background: #4f2f75;
-    transform: rotate(105deg);
-}
-.dark-rec-5{
-    position: absolute;
-    top: 175px;
-    left: 225px;
-    width: 14px;
-    height: 4px;
-    background: #4f2f75;
-    transform: rotate(35deg);
-}
-.curved-1{
-    position: absolute;
-    top: 175px;
-    left: 90px;
-    width: 18px;
-    height: 8px;
-    background-color: transparent;
-    border-right: 2.5px solid #00bcda;
-    border-left: 2.5px solid #00bcda;
-    border-bottom: 2.5px solid #00bcda;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(340deg);
-}
-.curved-2{
-    position: absolute;
-    top: 110px;
-    left: 220px;
-    width: 15px;
-    height: 8px;
-    background-color: transparent;
-    border-right: 2.5px solid #00bcda;
-    border-left: 2.5px solid #00bcda;
-    border-bottom: 2.5px solid #00bcda;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(-120deg);
-}
-.curved-3{
-    position: absolute;
-    top: 175px;
-    left: 195px;
-    width: 18px;
-    height: 8px;
-    background-color: transparent;
-    border-right: 2.5px solid #04bbd4;
-    border-left: 2.5px solid #04bbd4;
-    border-bottom: 2.5px solid #04bbd4;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(240deg);
-}
-.curved-4{
-    position: absolute;
-    top: 110px;
-    left: 20px;
-    width: 18px;
-    height: 8px;
-    background-color: transparent;
-    border-right: 2.5px solid #04bbd4;
-    border-left: 2.5px solid #04bbd4;
-    border-bottom: 2.5px solid #04bbd4;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(310deg);
-}
-.curved-5{
-    position: absolute;
-    top: 200px;
-    left: 80px;
-    width: 18px;
-    height: 8px;
-    background-color: transparent;
-    border-right: 2.5px solid #04bbd4;
-    border-left: 2.5px solid #04bbd4;
-    border-bottom: 2.5px solid #04bbd4;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(45deg);
-}
-.light-curve-1{
-    position: absolute;
-    top: 210px;
-    left: 70px;
-    width: 12px;
-    height: 5.5px;
-    background-color: transparent;
-    border-right: 2px solid #1ee9ff;
-    border-left: 2px solid #1ee9ff;
-    border-bottom: 2px solid #1ee9ff;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(245deg);
-}
-.light-curve-2{
-    position: absolute;
-    top: 75px;
-    left: 205px;
-    width: 12px;
-    height: 5.5px;
-    background-color: transparent;
-    border-right: 2px solid #1ee9ff;
-    border-left: 2px solid #1ee9ff;
-    border-bottom: 2px solid #1ee9ff;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(40deg);
-}
-.light-curve-3{
-    position: absolute;
-    top: 200px;
-    left: 225px;
-    width: 12px;
-    height: 5.5px;
-    background-color: transparent;
-    border-right: 2px solid #1ee9ff;
-    border-left: 2px solid #1ee9ff;
-    border-bottom: 2px solid #1ee9ff;
-    border-radius: 0px 0px 150px 150px;
-    transform: rotate(45deg);
-}
+
 
 
 /*** FRAME 5 Confettis ***/
-.confettis-2 .rectangle-3{
+
+
+/* .confettis-2 .rectangle-3{
     margin: -10px;
 }
 .confettis-2 .light-curve-2{
@@ -1157,7 +1076,7 @@ span.char23{
 .confettis-2 .rectangle-4{
     top:180px;
     left:50px;
-}
+} */
 
 
 
