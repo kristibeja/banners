@@ -522,7 +522,7 @@ span.char23{
 @keyframes char19 {
     from{ transform: rotate(0deg); }
     to{
-       top: 56px;
+       top: 55px;
        left: 64px;
     }
 }
@@ -601,7 +601,7 @@ span.char23{
 .frame-5 img {
     width: 50%;
     display: flex;
-    margin: 0 auto 5px;
+    margin: 10px auto 10px;
 }
 
 
@@ -1044,6 +1044,320 @@ span.char23{
 
 
 /*** FRAME 5 Confettis ***/
+.big-circle-f5{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #0bf6fd;
+    border-radius: 50%;
+    top: 85px;
+    right: 42px;
+    /* animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+
+.circle-f5{
+    position: absolute;
+    top: 155px;
+    left: 45px;
+    width: 6.5px;
+    height: 6.5px;
+    background-color: #0bf6fd;
+    border-radius: 50%;
+    /* animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.circle-1-f5{
+    position: absolute;
+    top: 160px;
+    right: 45px;
+    width: 6.5px;
+    height: 6.5px;
+    background-color: #0bf6fd;
+    border-radius: 50%;
+    /* animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.dark-circle-f5{
+    position: absolute;
+    top: 178px;
+    right: 40px;
+    width: 5px;
+    height: 5px;
+    background-color: #40078d;
+    border-radius: 50%;
+    /* animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.dark-circle-1-f5{
+    position: absolute;
+    top: 140px;
+    left: 44px;
+    width: 5px;
+    height: 5px;
+    background-color: #40078d;
+    border-radius: 50%;
+    /* animation-name: circle;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.rectangle-1-f5{
+    position: absolute;
+    top: 147px;
+    left: 25px;
+    width: 12px;
+    height: 3px;
+    background: #0bf6fd;
+    transform: rotate(-25deg);
+    /* animation-name: rectangle-1;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.rectangle-2-f5{
+    position: absolute;
+    top: 170px;
+    right: 58px;
+    width: 10px;
+    height: 3px;
+    background: #0bf6fd;
+    transform: rotate(45deg);
+    /* animation-name: rectangle-2;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.rectangle-3-f5{
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    width: 13px;
+    height: 4px;
+    background: #00fafe;
+    transform: rotate(55deg);
+    /* animation-name: rectangle-3;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.rectangle-4-f5{
+    position: absolute;
+    top: 145px;
+    left: 60px;
+    width: 12px;
+    height: 3px;
+    background: #00fafe;
+    transform: rotate(-45deg);
+    /* animation-name: rectangle-4;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.rectangle-5-f5{
+    position: absolute;
+    top: 104px;
+    right: 25px;
+    width: 14px;
+    height: 3px;
+    background: #00fafe;
+    transform: rotate(-20deg);
+    /* animation-name: rectangle-5;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.dark-rec-1-f5{
+    position: absolute;
+    top: 68px;
+    right: 45px;
+    width: 11px;
+    height: 3px;
+    background: #40078d;
+    transform: rotate(-55deg);
+    /* animation-name: dark-rec-1;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.dark-rec-2-f5{
+    position: absolute;
+    top: 106px;
+    left: 22px;
+    width: 11px;
+    height: 3px;
+    background: #40078d;
+    transform: rotate(-10deg);
+    /* animation-name: dark-rec-2;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.dark-rec-3-f5{
+    position: absolute;
+    top: 66px;
+    left: 60px;
+    width: 11px;
+    height: 3px;
+    background: rgb(64, 7, 141);
+    transform: rotate(45deg);
+    /* animation-name: dark-rec-3;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.dark-rec-4-f5{
+    position: absolute;
+    top: 190px;
+    left: 43px;
+    width: 11px;
+    height: 3px;
+    background: #40078d;
+    transform: rotate(-70deg);
+    /* animation-name: dark-rec-4;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.dark-rec-5-f5{
+    position: absolute;
+    top: 140px;
+    right: 58px;
+    width: 10px;
+    height: 3px;
+    background: #40078d;
+    transform: rotate(20deg);
+    /* animation-name: dark-rec-5;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.light-curve-1-f5{
+    position: absolute;
+    top: 175px;
+    left: 62px;
+    width: 12px;
+    height: 5.5px;
+    background-color: transparent;
+    border-right: 2px solid #00fafe;
+    border-left: 2px solid #00fafe;
+    border-bottom: 2px solid #00fafe;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(-125deg);
+    /* animation-name: light-curve-1;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.light-curve-2-f5{
+    position: absolute;
+    top: 120px;
+    right: 57px;
+    width: 12px;
+    height: 5.5px;
+    background-color: transparent;
+    border-right: 2px solid #00fafe;
+    border-left: 2px solid #00fafe;
+    border-bottom: 2px solid #00fafe;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(60deg);
+    /* animation-name: light-curve-2;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.light-curve-3-f5{
+    position: absolute;
+    top: 145px;
+    right: 33px;
+    width: 12px;
+    height: 5.5px;
+    background-color: transparent;
+    border-right: 2px solid #00fafe;
+    border-left: 2px solid #00fafe;
+    border-bottom: 2px solid #00fafe;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(45deg);
+    /* animation-name: light-curve-2;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.curved-1-f5{
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    width: 18px;
+    height: 8px;
+    background-color: transparent;
+    border-right: 3px solid #00bcda;
+    border-left: 3px solid #00bcda;
+    border-bottom: 3px solid #00bcda;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(146deg);
+    /* animation-name: curved-1;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.curved-2-f5{
+    position: absolute;
+    top: 88px;
+    right: 55px;
+    width: 18px;
+    height: 8px;
+    background-color: transparent;
+    border-right: 3px solid #00bcda;
+    border-left: 3px solid #00bcda;
+    border-bottom: 3px solid #04bbd4;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(-125deg);
+    /* animation-name: curved-2;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.curved-3-f5{
+    position: absolute;
+    bottom: 90px;
+    right: 53px;
+    width: 18px;
+    height: 8px;
+    background-color: transparent;
+    border-right: 3px solid #00bcda;
+    border-left: 3px solid #00bcda;
+    border-bottom: 3px solid #00bcda;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(230deg);
+    /* animation-name: curved-3;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.curved-4-f5{
+    position: absolute;
+    top: 90px;
+    left: 26px;
+    width: 18px;
+    height: 8px;
+    background-color: transparent;
+    border-right: 3px solid #00bcda;
+    border-left: 3px solid #00bcda;
+    border-bottom: 3px solid #00bcda;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(-40deg);
+    /* animation-name: curved-4;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+.curved-5-f5{
+    position: absolute;
+    top: 170px;
+    left: 27px;
+    width: 18px;
+    height: 8px;
+    background-color: transparent;
+    border-right: 3px solid #00bcda;
+    border-left: 3px solid #00bcda;
+    border-bottom: 3px solid #00bcda;
+    border-radius: 0px 0px 150px 150px;
+    transform: rotate(30deg);
+    /* animation-name: curved-5;
+    animation-duration: .3s;
+    animation-delay: .4s; */
+}
+
+
+
+
+
 
 
 /* .confettis-2 .rectangle-3{
